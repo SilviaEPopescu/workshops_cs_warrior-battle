@@ -6,7 +6,12 @@ namespace WarriorBattle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("FIGHT!")
+            Console.WriteLine("FIGHT!");
+
+
+            Warrior firstWarrior = new Warrior("Hercules", 100, 20, 8);
+            firstWarrior.GetAttack();
+
         }
     }
 }
